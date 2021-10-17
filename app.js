@@ -66,7 +66,7 @@ app.use(authRoutes);
 app.use(errorController.get404);
 
 const corsOptions = {
-  origin: "https://cse341-prov04.herokuapp.com/",
+  origin: "https://cse341-prove5.herokuapp.com/",
   optionsSuccessStatus: 200
   };
 app.use(cors(corsOptions));
